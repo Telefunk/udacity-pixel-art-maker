@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8"/>
     <title>Pixel Art Maker!</title>
+    <meta name="description" content="Welcome to my pixel art website!">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,latin-ext'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Lab: Pixel Art Maker</h1>
+    <h1>Greg's: Pixel Art Maker</h1>
 
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
         Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        <input type="number" id="inputHeight" name="height" min="1" max="50" value="1">
         Grid Width:
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
+        <input type="number" id="inputWidth" name="width" min="1" max="50" value="1">
         <input type="submit">
     </form>
 

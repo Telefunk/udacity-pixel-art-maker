@@ -1,15 +1,22 @@
+html {
+  font-family:sans-serif
+}
+
 body {
     text-align: center;
+    background-color: #cff3ff;
 }
 
 h1 {
     font-family: Monoton;
     font-size: 70px;
     margin: 0.2em;
+    color: #502d00;
 }
 
 h2 {
     margin: 1em 0 0.25em;
+    font-family: 'Open Sans';
 }
 
 h2:first-of-type {
@@ -20,6 +27,7 @@ table,
 tr,
 td {
     border: 1px solid black;
+    background-color: white;
 }
 
 table {
